@@ -125,7 +125,7 @@ input[type=text] {
   .buttonBlock{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     height: 10%;
     width: 90%;

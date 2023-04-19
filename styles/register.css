@@ -176,3 +176,114 @@ a{
     flex-wrap: wrap;
     text-align: center;
 }
+
+/* @media only screen and (min-width:320px) and (max-width:480px) {
+    .registerContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 90%;
+        width: 60%;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+    }
+
+    .imageContent{
+        display: none;
+        
+    }
+} */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .imageContent{
+        display: none;
+        
+    }
+
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .imageContent{
+        display: none;
+        
+    }
+
+    .registerContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 90%;
+        width: 90%;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+    }
+
+    .nameBlock{
+        display: flex;
+        flex-direction: column;
+        height: 30%;
+        width: 90%;
+    }
+
+    .passwordContent{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .emailBlock{
+        display: flex;
+        flex-direction: column;
+        height: 30%;
+        width: 90%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .imageContent{
+        display: none;
+        
+    }
+
+    .registerContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 90%;
+        width: 90%;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .imageContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 90%;
+        width: 30%;
+    }
+
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .imageContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 90%;
+        width: 30%;
+    }
+}
